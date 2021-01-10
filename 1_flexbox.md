@@ -40,7 +40,7 @@
 - flex-directrion: row-reverse / column-reverse (방향 반대)
 - **flex-wrap : wrap-reverse** : keep the width and position bottom to the top  
   (flex-wrap: wrap + flex-drection: row-reverse)
-- **align-content** : **line**에 대한 justify-content (줄에 대한 position 설정)  
+- **align-content** : **main-axis의 line**에 대한 justify-content (줄에 대한 position 설정)  
   (e.g. align-content: flex-start )
   <img src="./img/align-content:flex-start.png" width="800px">
 
