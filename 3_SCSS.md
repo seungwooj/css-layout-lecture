@@ -13,4 +13,24 @@
 
 #### 3.1 Variables and Nesting
 
-- Grid : flexbox로 Grid(표)를 만들기가 어려워서 Grid전용 컨셉이 등장한 것
+- "Coolest" feature of SCSS
+- **Variables** : use **to save the most important styles** of the website.
+
+  1. **create the "\_name.scss" file** under ~~src/scss route~~  
+     (\_filename.scss : "do not want to compile to css")
+  2. **define variables** in the form of **$variable_name : variable_value;**
+     <img src="./img/scss-01.png" width="300px">
+  3. **import the file in "styles.scss" file** and use it  
+     → font-size, shadow...등등을 저장해서 계속 불러 사용할 수 있음  
+     <img src="./img/scss-02.png" width="500px">
+
+- **Nesting** : allows your code to **target the element more precisely**  
+  (stltes.scss 파일 안에 **코드를 적는 방식**)  
+  → css에서는 따로 적어야 하는 코드를 네스팅 해서 적을 수 있음, 더 정확한 코딩이 가능.
+  <img src="./img/scss-03.png" width="500px">  
+  **→ 진짜 프로그래밍 언어 같다!**
+
+#### 3.2 Mixins
+
+- allows you to reuse SCSS functionality
+-
