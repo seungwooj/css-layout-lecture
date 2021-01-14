@@ -32,5 +32,18 @@
 
 #### 3.2 Mixins
 
-- allows you to reuse SCSS functionality
--
+- **Mixins**: allows you to reuse SCSS functionality, **like a function**  
+  **(You can pass inputs to the mixins and the inputs will change the output of CSS.)**  
+  → element에 값을 전달해서 다이나믹하게 바꾸는 것이 가능! (just like programming language!)
+
+  1. **create the "\_name.scss" file** under ~~src/scss route~~  
+     (\_filename.scss : "do not want to compile to css")
+  2. **define mixins** in the form of **@mixin mixin_name {code of mixin;}**
+     <img src="./img/scss-04.png" width="300px">
+  3. **import the file in "styles.scss" file** and use it like a function  
+     <img src="./img/scss-05.png" width="300px">
+
+- Mixins are more useful **when you want to add certain features to the multiple elements** (just like functions)  
+  <img src="./img/scss-06.png" width="500px">
+- It is possible to **write conditionals in the mixins**  
+  <img src="./img/scss-07.png" width="500px">
