@@ -32,18 +32,28 @@
 
 #### 3.2 Mixins
 
-- **Mixins**: allows you to reuse SCSS functionality, **like a function**  
-  **(You can pass inputs to the mixins and the inputs will change the output of CSS.)**  
+- **Mixins**: allows you to **apply different codes** according to different conditions, **like a conditional**  
+  →**You can pass inputs to the mixins and the inputs will change the output of CSS.**  
   → element에 값을 전달해서 다이나믹하게 바꾸는 것이 가능! (just like programming language!)
 
   1. **create the "\_name.scss" file** under ~~src/scss route~~  
      (\_filename.scss : "do not want to compile to css")
-  2. **define mixins** in the form of **@mixin mixin_name {code of mixin;}**
-     <img src="./img/scss-04.png" width="300px">
-  3. **import the file in "styles.scss" file** and use it like a function  
+  2. **import the file in "styles.scss" file** and use it like a function  
      <img src="./img/scss-05.png" width="300px">
 
 - Mixins are more useful **when you want to add certain features to the multiple elements** (just like functions)  
   <img src="./img/scss-06.png" width="500px">
 - It is possible to **write conditionals in the mixins**  
   <img src="./img/scss-07.png" width="500px">
+
+#### 3.3 Extends
+
+- **Extends** : allows you to not to repeat writing the ~~same code~~
+  1. **create the "\_name.scss" file** under ~~src/scss route~~  
+     (\_filename.scss : "do not want to compile to css")
+  2. **define extending contents** in the form of **%extend_name {};**
+     <img src="./img/scss-08.png" width="300px">  
+     → 　한 화면에서 **여러 종류의 element들의 style을 서로 분리해서 관리할 때** 특히 유용하다!
+  3. **import the file in "styles.scss" file** and use it in the element  
+      <img src="./img/scss-09.png" width="300px">
+     → 여러 element에게 공통으로 적용되는 것은 extend로 css에 넣고, 그외 다른 스타일만 개별적으로 적어주면 된다.
