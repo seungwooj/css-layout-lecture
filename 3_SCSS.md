@@ -57,3 +57,9 @@
   3. **import the file in "styles.scss" file** and use it in the element  
       <img src="./img/scss-09.png" width="300px">
      → 여러 element에게 공통으로 적용되는 것은 extend로 css에 넣고, 그외 다른 스타일만 개별적으로 적어주면 된다.
+
+#### 3.4 Awesome Mixins and Conclusions
+
+- **content** : styles.css에 **@include를 활용**해서 정의한 내용을 mixins에 **@content로 끌어와 사용**할 수 있음.  
+  <img src="./img/scss-10.png" width="800px">
+- There are many mixins library (<a href="https://github.com/Famolus/awesome-sass">Link</a>) : **Bourbon** / **Saas Media query** / **animate.css** 등등!
