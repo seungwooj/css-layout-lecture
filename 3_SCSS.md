@@ -18,7 +18,7 @@
 
   1. **create the "\_name.scss" file** under ~~src/scss route~~  
      (\_filename.scss : "do not want to compile to css")
-  2. **define variables** in the form of **$variable_name : variable_value;**
+  2. **define variables** in the form of **$variable_name : variable_value;**  
      <img src="./img/scss-01.png" width="300px">
   3. **import the file in "styles.scss" file** and use it  
      → font-size, shadow...등등을 저장해서 계속 불러 사용할 수 있음  
@@ -51,7 +51,7 @@
 - **Extends** : allows you to not to repeat writing the ~~same code~~
   1. **create the "\_name.scss" file** under ~~src/scss route~~  
      (\_filename.scss : "do not want to compile to css")
-  2. **define extending contents** in the form of **%extend_name {};**
+  2. **define extending contents** in the form of **%extend_name {};**  
      <img src="./img/scss-08.png" width="300px">  
      → 　한 화면에서 **여러 종류의 element들의 style을 서로 분리해서 관리할 때** 특히 유용하다!
   3. **import the file in "styles.scss" file** and use it in the element  
