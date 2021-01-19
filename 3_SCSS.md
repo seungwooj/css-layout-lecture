@@ -64,4 +64,4 @@
   <img src="./img/scss-10.png" width="800px">
 - There are many mixins library (<a href="https://github.com/Famolus/awesome-sass">Link</a>) : **Bourbon** / **Saas Media query** / **animate.css** 등등!
 
-이후는 cloning 진행할 것.
+이후는 cloning 진행할 것. (대상 웹사이트 20곳)
