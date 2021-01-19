@@ -63,3 +63,5 @@
 - **content** : styles.css에 **@include를 활용**해서 정의한 내용을 mixins에 **@content로 끌어와 사용**할 수 있음.  
   <img src="./img/scss-10.png" width="800px">
 - There are many mixins library (<a href="https://github.com/Famolus/awesome-sass">Link</a>) : **Bourbon** / **Saas Media query** / **animate.css** 등등!
+
+이후는 cloning 진행할 것.
